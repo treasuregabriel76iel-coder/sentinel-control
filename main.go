@@ -8,9 +8,9 @@ import (
 	"bufio"
 	"fmt"
 	"os"
+	"sentinel-control/subsystems"
 	"strconv"
 	"strings"
-	"sentinel-control/subsystems"
 )
 
 var last float64
@@ -34,7 +34,7 @@ func main() {
 
 		switch input {
 		case "exit":
-			fmt.Println("Shutting down...")
+			fmt.Println("Shutting down...GOODBYE!!")
 			return
 
 		case "help":
